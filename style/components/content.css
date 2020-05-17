@@ -28,6 +28,27 @@ header h1{}
   /*text-decoration: underline;*/
 }
 
+@media screen and (max-width: 1024px) {
+  .first-part h1 {
+    font-size: 50px !important;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .first-part h2 {
+    font-size: 40px !important;
+    padding: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .first-part p {
+    font-size: 24px !important;
+    padding: 15px !important;
+  }
+}
+
 .first-part h2{
   line-height: 50px;
   color: white;

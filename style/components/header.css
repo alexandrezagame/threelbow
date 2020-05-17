@@ -24,3 +24,10 @@ header
   position: fixed;
   z-index: -1;
 }
+
+@media screen and (max-width: 1024px) {
+  .logo img {
+    height: 150px;
+    width: auto;
+  }
+}
