@@ -7,6 +7,7 @@
   background-image: url("https://images.pexels.com/photos/3566120/pexels-photo-3566120.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-size: cover;
   position: center;
+  background-repeat: no-repeat;
 }
 
 header h1{}
@@ -41,6 +42,7 @@ header h1{}
   line-height: auto;
   color: white;
   padding: 10px 150px;
+  text-align: center;
 }
 
 

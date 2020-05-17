@@ -8,6 +8,10 @@ footer {
   position: fixed;
   z-index: -1;
   line-height: 100px;
+  background-image: url("https://images.pexels.com/photos/1185434/pexels-photo-1185434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  position: center;
+  background-repeat: no-repeat;
 }
 
 footer h1{
@@ -24,6 +28,27 @@ footer h1{
   font-size: 70px;
   color: #fff;
   text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 50px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color: #F79712;
+}
+.footer .fa-heart {
+  color: #D23333;
 }
 
 
@@ -210,7 +235,7 @@ h2 {
 
 /* Drunk Text */
 
-.animated {
+/*.animated {
   -webkit-animation-fill-mode:both;
      -moz-animation-fill-mode:both;
           animation-fill-mode:both;
@@ -229,7 +254,7 @@ h2 {
   -webkit-animation-duration:2s;
      -moz-animation-duration:2s;
           animation-duration:2s;
-}
+}*/
 
 @-webkit-keyframes drunk {
   0% { 
